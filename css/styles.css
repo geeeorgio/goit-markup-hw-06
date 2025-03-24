@@ -268,12 +268,12 @@ button {
 
     .header-logo {
         padding: 24px 0;
+        margin-right: 122px;
     }
 
     .header-nav {
         justify-content: space-between;
-        flex-grow: 1;
-        margin-right: 122px;
+        /* flex-grow: 1; */
     }
 
     .nav-list {
@@ -1091,6 +1091,7 @@ button {
         border: 1px solid var(--white);
         color: var(--white);
         opacity: 1;
+        min-width: 264px;
     }
 }
 
