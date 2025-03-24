@@ -870,9 +870,7 @@ button {
 /*? ===== MOBILE ==== */
 
 .page-footer {
-    margin: 0 auto;
     padding: 96px 0;
-    max-width: 1440px;
     background-color: var(--navy-blue);
 }
 
