@@ -811,7 +811,7 @@
 
   <!-- Modal Form ON/OFF-->
 
-  <!-- <script>
+  <script>
     document.addEventListener('DOMContentLoaded', () => {
       const backdrop = document.querySelector('.backdrop');
       const closeModalBtn = document.querySelector('.modal-close-btn');
@@ -835,5 +835,28 @@
         }
       });
     });
-  </script> -->
+  </script>
+
+  <!-- Mobile Menu ON/OFF-->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const openMenuBtn = document.querySelector('.open-mobile-menu-btn');
+      const closeMenuBtn = document.querySelector('.mobile-menu-close-btn');
+      const mobileMenu = document.querySelector('.mobile-menu-backdrop');
+
+      openMenuBtn.addEventListener('click', function () {
+        mobileMenu.classList.add('is-open');
+      });
+
+      closeMenuBtn.addEventListener('click', function () {
+        mobileMenu.classList.remove('is-open');
+      });
+
+      mobileMenu.addEventListener('click', function (event) {
+        if (event.target === mobileMenu) {
+          mobileMenu.classList.remove('is-open');
+        }
+      });
+    });
+  </script>
 </html>
