@@ -370,7 +370,6 @@ button {
 .hero {
     margin: 0 auto;
     padding: 72px;
-    max-width: 1440px;
     background-image: linear-gradient(var(--grey), var(--grey)), url(../images/mob-hero-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
