@@ -268,12 +268,11 @@ button {
 
     .header-logo {
         padding: 24px 0;
-        margin-right: 122px;
+        margin-right: 120px;
     }
 
     .header-nav {
         justify-content: space-between;
-        /* flex-grow: 1; */
     }
 
     .nav-list {
@@ -345,6 +344,11 @@ button {
     .page-header .container {
         max-width: 1158px;
         padding: 0 15px;
+    }
+
+    .header-logo {
+        padding: 24px 0;
+        margin-right: 72px;
     }
 
     .address-list {
